@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ECAA59F1E7DD06700106525 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAA59E1E7DD06700106525 /* main.cpp */; };
+		6ECAA5A71E7DD15B00106525 /* Televizor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAA5A51E7DD15B00106525 /* Televizor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6ECAA5991E7DD06700106525 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6ECAA59B1E7DD06700106525 /* Zadatak10Cas3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Zadatak10Cas3; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECAA59E1E7DD06700106525 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6ECAA5A51E7DD15B00106525 /* Televizor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Televizor.cpp; sourceTree = "<group>"; };
+		6ECAA5A61E7DD15B00106525 /* Televizor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Televizor.hpp; sourceTree = "<group>"; };
+		6ECAA5A81E7DD1F900106525 /* Slika zadatka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slika zadatka.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECAA5981E7DD06700106525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECAA5921E7DD06700106525 = {
+			isa = PBXGroup;
+			children = (
+				6ECAA59D1E7DD06700106525 /* Zadatak10Cas3 */,
+				6ECAA59C1E7DD06700106525 /* Products */,
+				6ECAA5A81E7DD1F900106525 /* Slika zadatka.png */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECAA59C1E7DD06700106525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAA59B1E7DD06700106525 /* Zadatak10Cas3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECAA59D1E7DD06700106525 /* Zadatak10Cas3 */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAA5A61E7DD15B00106525 /* Televizor.hpp */,
+				6ECAA5A51E7DD15B00106525 /* Televizor.cpp */,
+				6ECAA59E1E7DD06700106525 /* main.cpp */,
+			);
+			path = Zadatak10Cas3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECAA59A1E7DD06700106525 /* Zadatak10Cas3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECAA5A21E7DD06700106525 /* Build configuration list for PBXNativeTarget "Zadatak10Cas3" */;
+			buildPhases = (
+				6ECAA5971E7DD06700106525 /* Sources */,
+				6ECAA5981E7DD06700106525 /* Frameworks */,
+				6ECAA5991E7DD06700106525 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zadatak10Cas3;
+			productName = Zadatak10Cas3;
+			productReference = 6ECAA59B1E7DD06700106525 /* Zadatak10Cas3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECAA5931E7DD06700106525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Milovan Tomasevic";
+				TargetAttributes = {
+					6ECAA59A1E7DD06700106525 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T3577A6TEY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6ECAA5961E7DD06700106525 /* Build configuration list for PBXProject "Zadatak10Cas3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ECAA5921E7DD06700106525;
+			productRefGroup = 6ECAA59C1E7DD06700106525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECAA59A1E7DD06700106525 /* Zadatak10Cas3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECAA5971E7DD06700106525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAA5A71E7DD15B00106525 /* Televizor.cpp in Sources */,
+				6ECAA59F1E7DD06700106525 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6ECAA5A01E7DD06700106525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6ECAA5A11E7DD06700106525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6ECAA5A31E7DD06700106525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T3577A6TEY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ECAA5A41E7DD06700106525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T3577A6TEY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECAA5961E7DD06700106525 /* Build configuration list for PBXProject "Zadatak10Cas3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECAA5A01E7DD06700106525 /* Debug */,
+				6ECAA5A11E7DD06700106525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECAA5A21E7DD06700106525 /* Build configuration list for PBXNativeTarget "Zadatak10Cas3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECAA5A31E7DD06700106525 /* Debug */,
+				6ECAA5A41E7DD06700106525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECAA5931E7DD06700106525 /* Project object */;
+}
